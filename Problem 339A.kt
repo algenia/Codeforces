@@ -2,8 +2,8 @@
 // Helpful Maths
 
 fun main() {
-    val string = readln().split("+") // read string from input, save numbers only
+    val string = readln().split("+")
  
-    print(string.sorted().joinToString("+")) //sort numbers, print with "+" as separator
+    print(string.sorted().joinToString("+"))
     
 }
